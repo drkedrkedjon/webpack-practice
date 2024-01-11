@@ -9,4 +9,7 @@ module.exports = (_, argv) => ({
     filename: "[name].bundle.js",
     path: path.resolve(__dirname, "dist"),
   },
+  experiments: {
+    outputModule: true,
+  },
 });
