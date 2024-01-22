@@ -5,6 +5,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 // MiniCssExtractPlugin: to create a css file
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
+
 module.exports = (_, argv) => ({
   // Entry file
   entry: "./src/index.js",
