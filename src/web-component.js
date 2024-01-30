@@ -10,6 +10,7 @@ export class WebComponentTitle extends LitElement {
       font-size: 3.5rem;
       font-weight: 900;
       padding: 1.5rem 0;
+      
       margin: 0;
       color: var(--primary-color);
     }
